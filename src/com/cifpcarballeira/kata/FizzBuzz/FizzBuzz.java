@@ -12,7 +12,7 @@ package com.cifpcarballeira.kata.FizzBuzz;
 public class FizzBuzz {
 
     public String getFizzBuzz(int num) {
-        if(num % 3 == 0){
+        if(num % 3 == 0 || Integer.toString(num).contains("3")){
             if(num % 5 == 0){
                 return "FizzBuzz";
             }else{
