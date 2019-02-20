@@ -12,10 +12,10 @@ package com.cifpcarballeira.kata.FizzBuzz;
 public class FizzBuzz {
 
     public String getFizzBuzz(int num) {
-        if(num == 1){
-            return "1";
+        if(num % 3 == 0){
+            return "Fizz";
         }else{
-            return "2";
+            return "" + num;
         }
     }
     
